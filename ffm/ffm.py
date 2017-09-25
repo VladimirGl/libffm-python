@@ -180,7 +180,7 @@ class FFM():
         self.init_model(ffm_data)
         
         for i in range(num_iter):
-            self.model.iteration(ffm_data)
+            self._model.iteration(ffm_data)
 
         return self
 
